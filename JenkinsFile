@@ -54,11 +54,6 @@ pipeline {
                 echo "Tools: AWS EC2, Docker, Kubernetes"
             }
         }
-        stage('Deploy Complete') {
-            steps {
-                echo "Stage 8: Complete"
-            }
-        }
     }
 
     post {
